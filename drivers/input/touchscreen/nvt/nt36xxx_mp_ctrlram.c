@@ -34,11 +34,11 @@
 #define FREQ_HOP_DISABLE 0x66
 #define FREQ_HOP_ENABLE 0x65
 
-#define SHORT_TEST_CSV_FILE "/data/local/tmp/ShortTest.csv"
-#define OPEN_TEST_CSV_FILE "/data/local/tmp/OpenTest.csv"
-#define FW_RAWDATA_CSV_FILE "/data/local/tmp/FWMutualTest.csv"
-#define FW_CC_CSV_FILE "/data/local/tmp/FWCCTest.csv"
-#define NOISE_TEST_CSV_FILE "/data/local/tmp/NoiseTest.csv"
+#define SHORT_TEST_CSV_FILE "/data/nova/tmp/ShortTest.csv"
+#define OPEN_TEST_CSV_FILE "/data/nova/tmp/OpenTest.csv"
+#define FW_RAWDATA_CSV_FILE "/data/nova/tmp/FWMutualTest.csv"
+#define FW_CC_CSV_FILE "/data/nova/tmp/FWCCTest.csv"
+#define NOISE_TEST_CSV_FILE "/data/nova/tmp/NoiseTest.csv"
 
 #define nvt_mp_seq_printf(m, fmt, args...) do {	\
 	seq_printf(m, fmt, ##args);	\
